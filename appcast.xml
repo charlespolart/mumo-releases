@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Mumo</title>
-    <link>https://raw.githubusercontent.com/charlespolart/murmure-releases/master/appcast.xml</link>
+    <link>https://raw.githubusercontent.com/charlespolart/mumo-releases/master/appcast.xml</link>
     <description>Mises a jour de Mumo.</description>
   </channel>
 </rss>
