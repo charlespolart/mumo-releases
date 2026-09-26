@@ -1,9 +1,23 @@
 # Changelog
 
-Notes de version de Murmure. Format : `## <version> — <date>`, `### <langue>` (en, fr, zh-Hans, zh-Hant),
+Notes de version de Mumo. Format : `## <version> — <date>`, `### <langue>` (en, fr, zh-Hans, zh-Hant),
 `#### <catégorie>` (new, improved, fixed), puis une puce par ligne. La publication (`make release`) exige,
 pour la version publiée, les quatre langues avec au moins une puce. Détails :
 docs/superpowers/specs/2026-09-17-release-notes-and-update-awareness-design.md
+
+## Unreleased
+### en
+#### new
+- Murmure is now **Mumo** — same app, same settings, new name. Your dictionary, history and models are untouched.
+### fr
+#### new
+- Murmure devient **Mumo** — même app, mêmes réglages, nouveau nom. Dictionnaire, historique et modèles sont conservés.
+### zh-Hans
+#### new
+- Murmure 更名为 **Mumo**：同一款应用、同样的设置，只是换了名字。词典、历史记录和模型均保持不变。
+### zh-Hant
+#### new
+- Murmure 更名為 **Mumo**：同一款應用、同樣的設定，只是換了名字。字典、歷史記錄和模型均保持不變。
 
 ## 0.2.0 — 2026-09-17
 ### en
