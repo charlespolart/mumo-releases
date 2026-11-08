@@ -5,6 +5,44 @@ Notes de version de Mumo. Format : `## <version> — <date>`, `### <langue>` (en
 pour la version publiée, les quatre langues avec au moins une puce. Détails :
 docs/superpowers/specs/2026-09-17-release-notes-and-update-awareness-design.md
 
+## 0.4.1 — 2026-11-08
+### en
+#### improved
+- Setup: the translation switch is a real switch; the Superpowers tab moves on only once each demo has fully played; the capsule menu has even margins on all sides.
+- The bottom capsule stays bare at rest: the translation badge and the style symbol now show there only while you dictate. The island keeps its badge at rest.
+- Setup: the translated dictation now has its own page, with the same look as the first dictation (language on top, key on the left, green when the text lands). The per-app style demo shows real app windows, a note, a Messages thread and a Mail draft, where the text arrives as Mumo transcribes it, and its app pills can be clicked.
+#### fixed
+- Setup: the dictation page no longer arrives with the key “already pressed” after testing the shortcut on the activation step, which made the first press do nothing.
+- Setup, in English: the Email example of the per-app demo showed its internal name instead of the email.
+- About: the credits now list the Chinese engine (Qwen3-ASR), Apple's translation engine, MLX, swift-transformers and Sparkle.
+### fr
+#### improved
+- Configuration : l'interrupteur de traduction est un vrai interrupteur ; l'onglet Superpouvoirs n'enchaîne qu'une fois chaque démo jouée en entier ; le menu de la capsule a des marges égales de tous côtés.
+- La capsule du bas reste nue au repos : le badge de traduction et le symbole du style n'y apparaissent plus que pendant la dictée. L'île garde son badge au repos.
+- Configuration : la dictée traduite a désormais sa propre page, avec la même présentation que la première dictée (langue en tête, touche à gauche, vert quand le texte arrive). La démo du style par app montre de vraies fenêtres, une note, une conversation Messages et un brouillon Mail, où le texte arrive au fil de la transcription, et ses pilules d'app se cliquent.
+#### fixed
+- Configuration : la page de dictée n'arrive plus avec la touche « déjà appuyée » après un test du raccourci à l'étape Activation, qui rendait le premier appui muet.
+- Configuration, en anglais : l'exemple E-mail de la démo par app affichait son nom interne au lieu de l'e-mail.
+- À propos : les crédits mentionnent désormais le moteur chinois (Qwen3-ASR), le moteur de traduction d'Apple, MLX, swift-transformers et Sparkle.
+### zh-Hans
+#### improved
+- 初始设置：翻译开关现在是真正的开关；“超能力”标签页会等每个演示完整播放后再切换；胶囊菜单四周的边距一致。
+- 底部胶囊在待机时保持空白：翻译标记和风格符号现在只在听写时显示。灵动岛在待机时仍保留标记。
+- 初始设置：翻译听写现在有自己的页面，外观与第一次听写一致（语言在顶部，按键在左侧，文字到达时变绿）。按应用设置风格的演示现在展示真实的应用窗口：备忘录、信息对话和邮件草稿，文字会随着 Mumo 的转录逐步出现，应用标签也可以点击。
+#### fixed
+- 初始设置：在“激活”步骤测试快捷键后，听写页面不再以“按键已按下”的状态出现（之前会导致第一次按键无效）。
+- 初始设置（英文）：按应用演示中的“邮件”示例显示的是内部名称而不是邮件内容。
+- 关于：致谢现在列出了中文引擎（Qwen3-ASR）、Apple 翻译引擎、MLX、swift-transformers 和 Sparkle。
+### zh-Hant
+#### improved
+- 初始設定：翻譯開關現在是真正的開關；「超能力」標籤頁會等每個示範完整播放後再切換；膠囊選單四周的邊距一致。
+- 底部膠囊在待機時保持空白：翻譯標記和樣式符號現在只在聽寫時顯示。動態島在待機時仍保留標記。
+- 初始設定：翻譯聽寫現在有自己的頁面，外觀與第一次聽寫一致（語言在頂部，按鍵在左側，文字到達時變綠）。按 App 設定樣式的示範現在展示真實的 App 視窗：備忘錄、訊息對話和郵件草稿，文字會隨著 Mumo 的轉錄逐步出現，App 標籤也可以點按。
+#### fixed
+- 初始設定：在「啟用」步驟測試快速鍵後，聽寫頁面不再以「按鍵已按下」的狀態出現（之前會導致第一次按鍵無效）。
+- 初始設定（英文）：按 App 示範中的「郵件」範例顯示的是內部名稱而不是郵件內容。
+- 關於：致謝現在列出了中文引擎（Qwen3-ASR）、Apple 翻譯引擎、MLX、swift-transformers 和 Sparkle。
+
 ## 0.4.0 — 2026-11-08
 ### en
 #### new
