@@ -5,6 +5,52 @@ Notes de version de Mumo. Format : `## <version> — <date>`, `### <langue>` (en
 pour la version publiée, les quatre langues avec au moins une puce. Détails :
 docs/superpowers/specs/2026-09-17-release-notes-and-update-awareness-design.md
 
+## 0.5.0 — 2026-11-13
+### en
+#### new
+- Live subtitles: Mumo shows what is said in the sound your Mac plays, a film, a video, a call, even with the volume at zero. Listen to the whole Mac or one app, read it in the spoken language or translated, detach it into a panel you can place anywhere, and keep the transcript in History if you want a record. Everything stays on your Mac. Requires macOS 14.2; translation requires macOS 26.
+#### improved
+- Setup: text cleanup is now off when setup ends, so your first dictations are written right away. Setup still shows what it does; turn it on in Settings › Formatting when you want it.
+- Setup: with Chinese mode on, you now choose Simplified or Traditional right there. It is preselected from your interface language.
+- Settings: the Chinese engine now shows its size, under Chinese mode and in Storage, where it can be deleted once Chinese mode is off.
+#### fixed
+- Chinese mode: a dictation could stop writing partway, after about 50 seconds when it had pauses or after a few minutes without, and lose everything said afterwards, without any error. The end of a sentence before a long pause, or a first word followed by a long silence, could also disappear. Dictation no longer stops writing.
+- Chinese mode: when you ended a dictation while its last words were still being transcribed, the end of the text could be cut off, or a short dictation could be replaced by a stray “Language French”. The last words are now always transcribed in full.
+- Chinese mode: with Simplified selected, the live preview of a Cantonese dictation showed Traditional characters before the final text. The preview now follows the chosen script.
+### fr
+#### new
+- Sous-titres en direct : Mumo affiche ce qui se dit dans le son que votre Mac émet, un film, une vidéo, un appel, même le volume à zéro. Écoutez tout le Mac ou une seule app, lisez dans la langue parlée ou traduit, détachez le texte dans un panneau à placer où vous voulez, et gardez la transcription dans l'Historique pour en faire un compte rendu. Tout reste sur votre Mac. Nécessite macOS 14.2 ; la traduction nécessite macOS 26.
+#### improved
+- Configuration : le nettoyage du texte est désormais coupé à la fin de la configuration, pour que vos premières dictées s'écrivent tout de suite. La configuration montre toujours ce qu'il fait ; activez-le dans Réglages › Mise en forme quand vous le voulez.
+- Configuration : avec le mode chinois, vous choisissez maintenant l'écriture simplifiée ou traditionnelle sur place. Elle est présélectionnée d'après la langue de l'interface.
+- Réglages : le moteur chinois affiche désormais sa taille, sous le mode chinois et dans Stockage, où il peut être supprimé une fois le mode chinois coupé.
+#### fixed
+- Mode chinois : une dictée pouvait cesser d'écrire en cours de route, après environ 50 secondes si elle comportait des pauses, quelques minutes sinon, et perdre tout ce qui était dit ensuite, sans erreur. La fin d'une phrase avant une longue pause, ou un premier mot suivi d'un long silence, pouvait aussi disparaître. La dictée ne cesse plus d'écrire.
+- Mode chinois : quand vous terminiez une dictée pendant que ses derniers mots étaient encore en cours de transcription, la fin du texte pouvait être coupée, ou une courte dictée remplacée par un « Language French » parasite. Les derniers mots sont désormais toujours transcrits en entier.
+- Mode chinois : avec « Simplifié » choisi, l'aperçu en direct d'une dictée en cantonais montrait des caractères traditionnels avant le texte final. L'aperçu suit désormais l'écriture choisie.
+### zh-Hans
+#### new
+- 实时字幕：Mumo 显示 Mac 播放的声音中所说的内容，电影、视频、通话都可以，即使音量为零也行。可收听整台 Mac 或单个应用，按原语言阅读或翻译后阅读，可将文字分离到面板并放在任意位置，也可将转录内容保留在历史记录中作为记录。所有内容都留在你的 Mac 上。需要 macOS 14.2；翻译需要 macOS 26。
+#### improved
+- 初始设置：文本清理现在在设置结束时默认关闭，让你的第一次听写立即写出。设置过程仍会演示它的作用；需要时可在“设置 › 格式”中开启。
+- 初始设置：开启中文模式后，现在可以直接选择简体或繁体，并会根据界面语言预先选好。
+- 设置：中文引擎现在会显示其大小，位于中文模式下方和“存储”中；关闭中文模式后可在“存储”中删除。
+#### fixed
+- 中文模式：听写可能中途停止写入（有停顿时约 50 秒后，没有停顿时几分钟后），之后说的内容全部丢失，而且没有任何错误提示。长时间停顿前的句尾，或开头一个词后跟着长时间静音，也可能消失。现在听写不会再中途停止写入。
+- 中文模式：如果在最后几个词仍在转写时结束听写，文本结尾可能被截断，或者较短的听写会被一段多余的“Language French”取代。现在最后几个词总会完整转写。
+- 中文模式：选择“简体”时，粤语听写的实时预览会先显示繁体字，最终文本才是简体。现在预览会按所选字体显示。
+### zh-Hant
+#### new
+- 即時字幕：Mumo 顯示 Mac 播放的聲音中所說的內容，電影、影片、通話都可以，即使音量為零也行。可收聽整台 Mac 或單一 App，按原語言閱讀或翻譯後閱讀，可將文字分離到面板並放在任意位置，也可將轉錄內容保留在歷史記錄中作為記錄。所有內容都留在你的 Mac 上。需要 macOS 14.2；翻譯需要 macOS 26。
+#### improved
+- 初始設定：文字清理現在在設定結束時預設關閉，讓你的第一次聽寫立即寫出。設定過程仍會示範它的作用；需要時可在「設定 › 格式」中開啟。
+- 初始設定：開啟中文模式後，現在可以直接選擇簡體或繁體，並會根據介面語言預先選好。
+- 設定：中文引擎現在會顯示其大小，位於中文模式下方和「儲存」中；關閉中文模式後可在「儲存」中刪除。
+#### fixed
+- 中文模式：聽寫可能中途停止寫入（有停頓時約 50 秒後，沒有停頓時幾分鐘後），之後說的內容全部遺失，而且沒有任何錯誤提示。長時間停頓前的句尾，或開頭一個詞後接著長時間靜音，也可能消失。現在聽寫不會再中途停止寫入。
+- 中文模式：如果在最後幾個詞仍在轉寫時結束聽寫，文字結尾可能被截斷，或者較短的聽寫會被一段多餘的「Language French」取代。現在最後幾個詞總會完整轉寫。
+- 中文模式：選擇「簡體」時，粵語聽寫的即時預覽會先顯示繁體字，最終文字才是簡體。現在預覽會依所選字體顯示。
+
 ## 0.4.1 — 2026-11-08
 ### en
 #### improved
