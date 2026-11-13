@@ -1,11 +1,11 @@
 # Changelog
 
-Notes de version de Mumo. Format : `## <version> — <date>`, `### <langue>` (en, fr, zh-Hans, zh-Hant),
+Notes de version de Mumo. Format : `## <version> · <date>`, `### <langue>` (en, fr, zh-Hans, zh-Hant),
 `#### <catégorie>` (new, improved, fixed), puis une puce par ligne. La publication (`make release`) exige,
 pour la version publiée, les quatre langues avec au moins une puce. Détails :
 docs/superpowers/specs/2026-09-17-release-notes-and-update-awareness-design.md
 
-## 0.5.0 — 2026-11-13
+## 0.5.0 · 2026-11-13
 ### en
 #### new
 - Live subtitles: Mumo shows what is said in the sound your Mac plays, a film, a video, a call, even with the volume at zero. Listen to the whole Mac or one app, read it in the spoken language or translated, detach it into a panel you can place anywhere, and keep the transcript in History if you want a record. Everything stays on your Mac. Requires macOS 14.2; translation requires macOS 26.
@@ -51,7 +51,7 @@ docs/superpowers/specs/2026-09-17-release-notes-and-update-awareness-design.md
 - 中文模式：如果在最後幾個詞仍在轉寫時結束聽寫，文字結尾可能被截斷，或者較短的聽寫會被一段多餘的「Language French」取代。現在最後幾個詞總會完整轉寫。
 - 中文模式：選擇「簡體」時，粵語聽寫的即時預覽會先顯示繁體字，最終文字才是簡體。現在預覽會依所選字體顯示。
 
-## 0.4.1 — 2026-11-08
+## 0.4.1 · 2026-11-08
 ### en
 #### improved
 - Setup: the translation switch is a real switch; the Superpowers tab moves on only once each demo has fully played; the capsule menu has even margins on all sides.
@@ -89,7 +89,7 @@ docs/superpowers/specs/2026-09-17-release-notes-and-update-awareness-design.md
 - 初始設定（英文）：按 App 示範中的「郵件」範例顯示的是內部名稱而不是郵件內容。
 - 關於：致謝現在列出了中文引擎（Qwen3-ASR）、Apple 翻譯引擎、MLX、swift-transformers 和 Sparkle。
 
-## 0.4.0 — 2026-11-08
+## 0.4.0 · 2026-11-08
 ### en
 #### new
 - Translation is now a feature of its own, on Apple's engine (macOS 26): turn on “Translate what I dictate” from the island menu, the menu bar or Settings › Translation, pick the language, and dictate. The island and the capsule show the target while it's on, a “Translate once” shortcut handles one-off dictations, and each app can have its own language.
@@ -207,7 +207,7 @@ docs/superpowers/specs/2026-09-17-release-notes-and-update-awareness-design.md
 - 樣式不再會改動或遺漏數字：若日期、數量或時間與你所說的不一致，Mumo 會按原樣貼上你的話。
 - 中文模式：當最後一段音訊解碼為空時，聽寫不再在第一次就傳回空白；Mumo 會保留已聽到的內容，必要時重新辨識整段錄音，再判斷「未辨識到語音」。
 
-## 0.3.0 — 2026-11-04
+## 0.3.0 · 2026-11-04
 ### en
 #### new
 - Murmure is now **Mumo**: same app, same settings, new name. Your dictionary, history and models are untouched.
@@ -233,7 +233,7 @@ docs/superpowers/specs/2026-09-17-release-notes-and-update-awareness-design.md
 #### improved
 - 在全螢幕空間（影片、簡報等）中，閒置的膠囊和動態島保持隱藏，只顯示聽寫內容。
 
-## 0.2.0 — 2026-09-17
+## 0.2.0 · 2026-09-17
 ### en
 #### new
 - The bottom pill unfolds into the style menu on hover; the menu opens with intent (a short pause), never on a quick mouse pass.
